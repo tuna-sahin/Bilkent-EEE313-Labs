@@ -1,0 +1,11 @@
+* C:\Users\sahin\OneDrive\Documents\LTspice\EEE 313 - Lab 3\Draft2.asc
+R1 N002 N001 50
+R2 N003 N002 17.8
+L1 N004 N003 217µ
+C1 N002 0 47n
+C2 N004 0 47n
+R3 N004 0 47.5
+V1 N001 0 AC 1
+.ac oct 10 10000 1000000
+.backanno
+.end

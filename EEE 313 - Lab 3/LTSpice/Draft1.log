@@ -1,0 +1,22 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\sahin\OneDrive\Documents\LTspice\EEE 313 - Lab 3\Draft1.asc
+Start Time: Mon Nov 18 21:43:46 2024
+Warning: Multiple definitions of model "2scr375p" Type: BJT
+Warning: Multiple definitions of model "bc857b" Type: BJT
+Warning: Multiple definitions of model "bc847c" Type: BJT
+Warning: Multiple definitions of model "bc847b" Type: BJT
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+Direct Newton iteration for .op point succeeded.
+
+pout: AVG(v(vout)*i(r1))=1.17634 FROM 0 TO 0.01
+pin: AVG(-v(vcc)*i(v1))=2.25822 FROM 0 TO 0.01
+efficiency: pout/pin=0.520918
+voutpp: PP(v(vout))=17.7932 FROM 0 TO 0.01
+gain: 20*log10(voutpp/(2*vin))=25.0051
+
+Total elapsed time: 0.104 seconds.
+
