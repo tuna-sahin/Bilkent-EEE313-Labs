@@ -1,0 +1,71 @@
+LTspice 24.0.12 for Windows
+Circuit: * C:\Users\sahin\OneDrive\Documents\LTspice\Project\opamp2Offset.asc
+Start Time: Mon Nov  4 20:15:24 2024
+solver = Normal
+Maximum thread count: 16
+tnom = 27
+temp = 27
+method = modified trap
+WARNING: Node V1 is floating.
+
+WARNING: Less than two connections to node v1.  This node is used by v1.
+Early termination of direct N-R iteration.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+Gmin = 0.115292
+Gmin = 0.0123794
+Gmin = 0.00132923
+Gmin = 0.000142725
+Gmin = 1.5325e-05
+Gmin = 1.6455e-06
+Gmin = 1.76685e-07
+Gmin = 1.89714e-08
+Gmin = 2.03704e-09
+Gmin = 2.18725e-10
+Gmin = 2.34854e-11
+Gmin = 2.52173e-12
+Gmin = 2.70769e-13
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:    d:u1:1      d:u1:2      d:u1:5      d:u1:6      d:u1:4
+Model:    u1:dx       u1:dx       u1:dx       u1:dx       u1:dx
+Id:      9.86e-05   -8.96e-12    3.69e-05    3.69e-05   -2.71e-13
+Vd:      6.55e-01   -8.96e+00    6.29e-01    6.29e-01   -2.70e-01
+Req:     2.62e+02    1.00e+12    7.00e+02    7.00e+02    1.00e+12
+CAP:     0.00e+00    0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+Name:    d:u1:3
+Model:    u1:dx
+Id:     -2.71e-13
+Vd:     -2.70e-01
+Req:     1.00e+12
+CAP:     0.00e+00
+
+                        --- Bipolar Transistors ---
+Name:     q:u1:1      q:u1:2
+Model:     u1:qx       u1:qx
+Ib:      -4.61e-08    4.38e-08
+Ic:      -1.00e-04   -4.38e-08
+Vbe:     -7.15e-01    1.69e+00
+Vbc:      4.38e+04    4.38e+04
+Vce:     -4.38e+04   -4.38e+04
+BetaDC:   2.17e+03   -1.00e+00
+Gm:       3.86e-03    1.34e-43
+Rpi:      2.88e+05    1.00e+12
+Rx:       0.00e+00    0.00e+00
+Ro:       0.00e+00    0.00e+00
+Cbe:      0.00e+00    0.00e+00
+Cbc:      0.00e+00    0.00e+00
+Cjs:      0.00e+00    0.00e+00
+BetaAC:   1.11e+03    1.34e-31
+Cbx:      0.00e+00    0.00e+00
+Ft:       0.00e+00    0.00e+00
+
+
+Total elapsed time: 0.048 seconds.
+
