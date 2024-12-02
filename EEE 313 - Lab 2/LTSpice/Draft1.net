@@ -1,0 +1,12 @@
+* C:\Users\sahin\OneDrive\Documents\LTspice\EEE 313 - Lab 2\Draft1.asc
+Q1 Vc Vb 0 0 2N2222
+R1 N001 Vc 200
+R2 N001 Vb 3k
+R3 Vb 0 33k
+V1 N001 0 15
+.model NPN NPN
+.model PNP PNP
+.lib C:\Users\sahin\AppData\Local\LTspice\lib\cmp\standard.bjt
+.tran 0 1 0
+.backanno
+.end
